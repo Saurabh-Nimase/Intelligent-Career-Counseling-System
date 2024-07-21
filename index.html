@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intelligent Career Counseling System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Intelligent Career Counseling System</h1>
+    </header>
+    <main>
+        <section id="user-profile">
+            <h2>User Profile</h2>
+            <form id="profile-form">
+                <label for="interests">Interests:</label>
+                <input type="text" id="interests" required>
+                
+                <label for="skills">Skills:</label>
+                <input type="text" id="skills" required>
+                
+                <button type="submit">Update Profile</button>
+            </form>
+        </section>
+        
+        <section id="career-recommendations">
+            <h2>Career Recommendations</h2>
+            <div id="recommendations"></div>
+        </section>
+        
+        <section id="resume-builder">
+            <h2>Resume Builder</h2>
+            <textarea id="resume-text" rows="10" placeholder="Paste your resume text here..."></textarea>
+            <button id="analyze-resume">Analyze Resume</button>
+            <div id="resume-analysis"></div>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
